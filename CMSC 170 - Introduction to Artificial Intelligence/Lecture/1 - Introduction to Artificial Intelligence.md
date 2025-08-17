@@ -1,7 +1,3 @@
----
-Type:
-  - Lecture
----
 # What is AI?
 **Artificial Intelligence**
 - **Computational model** of *human behavior*
@@ -13,7 +9,6 @@ Type:
 - **Computational systems** that *behave rationally*
     - Being able to do good, or better, or best.
 ## Applications of AI
-
 - Monitor trading in stock exchange
 - Detect fraud (e.g. email fraud, phishing activity)
 - Schedule classes (e.g. take classes in the same building)
@@ -24,7 +19,6 @@ Type:
     - This is an agent-environment dichotomy.
 - Acts in behalf of humans (e.g. robot, web shopping program, traffic control system)
 ## World Model
-
 **Action Space** $(A)$
 - Contains all possible actions that the agent can do
 - Could be continuous or high-dimensional
@@ -62,7 +56,6 @@ Our problem as AI designers is to build an agent (or software) in such a way as 
 - Find a mapping of sequences of percepts to action that maximizes the utility of the resulting sequence of states $(P*\to A)$.
 
 # Rationality
-
 **Rational Agent**
 - Takes actions it believes will achieve its goals.
 
@@ -88,8 +81,7 @@ Our problem as AI designers is to build an agent (or software) in such a way as 
 **The Agent Design Problem (v2)**
 - Find a mapping of sequences of percepts to action that maximizes the utility of the resulting sequence of states $(P*\to A)$ subject to our computational constraints.
 
-# Issues
-
+## Issues
 **How could we possibly specify completely the domain the agent is going to work in?**
 - If you expect a problem to be solved, you have to say what the problem is.
 - Specification is usually iterative: Build agent, test, modify specification.
@@ -116,7 +108,6 @@ Our problem as AI designers is to build an agent (or software) in such a way as 
 - Part of the agent's job is to use sequences of percepts to estimate the missing details in the world dynamics.
 
 # Classes of Environment
-
 **Accessible (vs Inaccessible)**
 - Can you see the state of the world directly?
 
@@ -132,7 +123,6 @@ Our problem as AI designers is to build an agent (or software) in such a way as 
 ---
 
 **Example: A robot jeepney driver along the Calamba-College route.**
-
 - **Accessible or inaccessible:** Can the robot driver see everything along the route?
     - **Inaccessible**, the robot driver cannot see everything, especially depending on how it senses the world (using sensors and/or cameras).
 
