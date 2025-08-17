@@ -162,12 +162,11 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-importer:Open Importer": false,
-      "obsidian-to-notion:Share to notion": false,
       "github-sync:Sync with Remote": false,
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "0b7d756fc27f5ba3",
+  "active": "9fbec92844c05cda",
   "lastOpenFiles": [
     "CMSC 141 - Automata and Language Theory/images/image 2.png",
     "CMSC 141 - Automata and Language Theory/images/image 1.png",

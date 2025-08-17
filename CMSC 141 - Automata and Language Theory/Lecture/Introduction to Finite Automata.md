@@ -15,7 +15,7 @@ $$
 ## Quick Exercises
 
 1. What language or set of strings does this one-state automaton accept?
-	**![[CMSC 141 - Automata and Language Theory/images/image.png|291x317]]
+	![[image.png|178x224]]
 	Answer:** An empty string or any string that only contains characters from the alphabet $\Sigma = \{a,\ b\}$.
 
 2. Do we really need two trap states in the previous example? Can we merge the two trap states?
